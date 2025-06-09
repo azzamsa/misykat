@@ -8,11 +8,11 @@ keywords = ["salah", "pray", "islam", "hijri"]
 license = "GPL-3.0-only"
 readme = "README.md"
 repository = "https://github.com/azzamsa/misykat"
-rust-version = "1.85.0"
+rust-version = "1.87.0"
 description = "Islamic library for Rust"
 
 [dependencies]
-jiff = "0.2.4"
+jiff = "0.2.14"
 thiserror = "2.0.12"
 
 [package.metadata.release]
