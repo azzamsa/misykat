@@ -1,7 +1,7 @@
-use islam::hijri::HijriDate;
-use islam::jiff;
+use misykat::hijri::HijriDate;
+use misykat::jiff;
 
-fn example() -> Result<(), islam::Error> {
+fn example() -> Result<(), misykat::Error> {
     let hijri_date = HijriDate::new(1442, 8, 25)?;
     let tomorrow = hijri_date.clone().next_date();
     let gregorian = hijri_date.to_gregorian();

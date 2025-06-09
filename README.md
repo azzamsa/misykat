@@ -1,14 +1,14 @@
 <div align="center">
-<h1>islam</h1>
+<h1>misykat</h1>
 
-<a href="https://github.com/azzamsa/islam/actions/workflows/ci.yml">
-<img src="https://github.com/azzamsa/islam/actions/workflows/ci.yml/badge.svg">
+<a href="https://github.com/azzamsa/misykat/actions/workflows/ci.yml">
+<img src="https://github.com/azzamsa/misykat/actions/workflows/ci.yml/badge.svg">
 </a>
-<a href="https://crates.io/crates/islam">
-<img src="https://img.shields.io/crates/v/islam.svg">
+<a href="https://crates.io/crates/misykat">
+<img src="https://img.shields.io/crates/v/misykat.svg">
 </a>
-<a href="https://docs.rs/islam/">
-<img src="https://docs.rs/islam/badge.svg">
+<a href="https://docs.rs/misykat/">
+<img src="https://docs.rs/misykat/badge.svg">
 </a>
 
 <p></p>
@@ -17,7 +17,7 @@
 
 ---
 
-_islam_ is an Islamic library for Rust.
+_misykat_ (previously `islam`) is an Islamic library for Rust.
 It is a direct port of [PyIslam](https://github.com/abougouffa/pyIslam) with a slight change in the API part.
 
 ## Why?
@@ -25,7 +25,7 @@ It is a direct port of [PyIslam](https://github.com/abougouffa/pyIslam) with a s
 I have always got `panic!` working with [salah](https://github.com/insha/salah).
 Previously, I have a good experience with [PyIslam](https://github.com/abougouffa/pyIslam).
 In my case, it is very precise and has a simple algorithm. Nowadays, I work a lot with Rust.
-So here it is, `islam` is born!
+So here it is, `misykat` is born!
 
 ## Features
 
@@ -37,7 +37,7 @@ So here it is, `islam` is born!
 ### Getting Prayer Times
 
 ```rust
-use islam::salah::{Config, Location, Madhab, Method, PrayerSchedule};
+use misykat::salah::{Config, Location, Madhab, Method, PrayerSchedule};
 
 let central_jakarta = Location::new(6.1, 106.49);
 let config = Config::new().with(Method::Singapore, Madhab::Shafi);
@@ -47,8 +47,8 @@ let prayer_times = PrayerSchedule::new(central_jakarta)?
 ```
 
 First, you need to specify `Location` with `latitude`, and `longitude` as parameters.
-Then choose a calculation method such `Singapore`. Other methods are available [in the docs](https://docs.rs/islam/latest/islam/pray/method/enum.Method.html#variants).
-There are also `madhab` configurations that you [can choose from](https://docs.rs/islam/latest/islam/pray/madhab/enum.Madhab.html#variants).
+Then choose a calculation method such `Singapore`. Other methods are available [in the docs](https://docs.rs/misykat/latest/misykat/pray/method/enum.Method.html#variants).
+There are also `madhab` configurations that you [can choose from](https://docs.rs/misykat/latest/misykat/pray/madhab/enum.Madhab.html#variants).
 
 ### Getting Hijri Date
 

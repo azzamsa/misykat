@@ -5,7 +5,7 @@ on:
     tags:
       - 'v*'
 env:
-  PROJECT_NAME: islam
+  PROJECT_NAME: misykat
 
 jobs:
   create-github-release:

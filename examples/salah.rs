@@ -1,6 +1,6 @@
-use islam::salah::{Config, Location, Madhab, Method, PrayerSchedule};
+use misykat::salah::{Config, Location, Madhab, Method, PrayerSchedule};
 
-fn example() -> Result<(), islam::Error> {
+fn example() -> Result<(), misykat::Error> {
     let central_jakarta = Location::new(6.10, 106.49);
     let config = Config::new().with(Method::Singapore, Madhab::Shafi);
 

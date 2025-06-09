@@ -1,13 +1,13 @@
 [package]
-name = "islam"
-version = "4.1.0"
+name = "misykat"
+version = "4.1.1"
 authors = ["azzamsa <me@azzamsa.com>"]
 categories = ["date-and-time", "science"]
 edition = "2024"
 keywords = ["salah", "pray", "islam", "hijri"]
 license = "GPL-3.0-only"
 readme = "README.md"
-repository = "https://github.com/azzamsa/islam"
+repository = "https://github.com/azzamsa/misykat"
 rust-version = "1.85.0"
 description = "Islamic library for Rust"
 

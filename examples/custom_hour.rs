@@ -1,7 +1,7 @@
-use islam::jiff;
-use islam::salah::{Config, Location, Madhab, Method, PrayerSchedule};
+use misykat::jiff;
+use misykat::salah::{Config, Location, Madhab, Method, PrayerSchedule};
 
-fn custom_hour() -> Result<(), islam::Error> {
+fn custom_hour() -> Result<(), misykat::Error> {
     let central_jakarta = Location::new(6.10, 106.49);
     let config = Config::new().with(Method::Singapore, Madhab::Shafi);
     let now = jiff::civil::date(2023, 8, 30)
