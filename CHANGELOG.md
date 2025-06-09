@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.1.2] - 2025-06-09
+
+### Bug fixes
+
+- Rename `islam` to `misykat` ([8e2b13c](https://github.com/azzamsa/islam/commit/8e2b13ca3e4934d302713bb07b45ee80c227efd5))
+
+  Because `islam` represents the whole/complete way of life.
+
 ## [4.1.0] - 2025-03-12
 
 ### Bug fixes
@@ -86,3 +94,5 @@ All notable changes to this project will be documented in this file.
 - Use shorter module name ([b6c3399](https://github.com/azzamsa/islam/commit/b6c3399ebcc6f757d3a3eb5e893637c24f0ecae1))
 
   It is easier and more beauty for user
+
+## [1.0.1] - 2021-04-19

@@ -1,6 +1,6 @@
 [package]
 name = "misykat"
-version = "4.1.1"
+version = "4.1.2"
 authors = ["azzamsa <me@azzamsa.com>"]
 categories = ["date-and-time", "science"]
 edition = "2024"
